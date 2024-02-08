@@ -26,6 +26,18 @@ public class Main {
         System.out.println("Общий вес боксёров " + boxersWeight);
         var weightDif = (boxerTwo - boxerOne);
         System.out.println("разница в массе бойцов " + weightDif);
+        var remainderDivisions = boxerTwo % boxerOne;
+        System.out.println(remainderDivisions);
+        var workTime = 640;
+        var oneWorkerTime = 8;
+        var quantityWorkers = workTime / oneWorkerTime;
+        System.out.println("Всего работников в компании - " + quantityWorkers + " человек");
+        var otherCompanyWorkers = quantityWorkers + 94;
+        var otherWorkTime = otherCompanyWorkers * 8;
+        System.out.println("Если в компании работает " + otherCompanyWorkers + " человек то всего " + otherWorkTime + " часов работы может быть поделено между сотрудниками");
+
+
+
 
 
 
